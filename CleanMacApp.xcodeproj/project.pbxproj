@@ -10,6 +10,7 @@
 		8D5E5B5C27AF14900042EEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B5B27AF14900042EEED /* AppDelegate.swift */; };
 		8D5E5B5E27AF14940042EEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E5B5D27AF14940042EEED /* Assets.xcassets */; };
 		8D5E5B6727AF171B0042EEED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6627AF171B0042EEED /* main.swift */; };
+		8D5E5B6927AF17DC0042EEED /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6827AF17DC0042EEED /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		8D5E5B5D27AF14940042EEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5E5B6227AF14940042EEED /* Main.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Main.entitlements; sourceTree = "<group>"; };
 		8D5E5B6627AF171B0042EEED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8D5E5B6827AF17DC0042EEED /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			children = (
 				8D5E5B6627AF171B0042EEED /* main.swift */,
 				8D5E5B5B27AF14900042EEED /* AppDelegate.swift */,
+				8D5E5B6827AF17DC0042EEED /* Coordinator.swift */,
 				8D5E5B5D27AF14940042EEED /* Assets.xcassets */,
 				8D5E5B6227AF14940042EEED /* Main.entitlements */,
 			);
@@ -129,6 +132,7 @@
 			files = (
 				8D5E5B6727AF171B0042EEED /* main.swift in Sources */,
 				8D5E5B5C27AF14900042EEED /* AppDelegate.swift in Sources */,
+				8D5E5B6927AF17DC0042EEED /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
