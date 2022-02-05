@@ -7,21 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D5E5B4927AF14470042EEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B4827AF14470042EEED /* AppDelegate.swift */; };
-		8D5E5B4B27AF144C0042EEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E5B4A27AF144C0042EEED /* Assets.xcassets */; };
-		8D5E5B4E27AF144C0042EEED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E5B4C27AF144C0042EEED /* MainMenu.xib */; };
+		8D5E5B5C27AF14900042EEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B5B27AF14900042EEED /* AppDelegate.swift */; };
+		8D5E5B5E27AF14940042EEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E5B5D27AF14940042EEED /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D5E5B4527AF14470042EEED /* CleanMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5E5B4827AF14470042EEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D5E5B4A27AF144C0042EEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D5E5B4D27AF144C0042EEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		8D5E5B4F27AF144C0042EEED /* CleanMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanMacApp.entitlements; sourceTree = "<group>"; };
+		8D5E5B5927AF14900042EEED /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5E5B5B27AF14900042EEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D5E5B5D27AF14940042EEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D5E5B6227AF14940042EEED /* Main.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Main.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D5E5B4227AF14470042EEED /* Frameworks */ = {
+		8D5E5B5627AF14900042EEED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,7 +32,7 @@
 		8D5E5B3C27AF14470042EEED = {
 			isa = PBXGroup;
 			children = (
-				8D5E5B4727AF14470042EEED /* CleanMacApp */,
+				8D5E5B5A27AF14900042EEED /* Main */,
 				8D5E5B4627AF14470042EEED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,40 +40,39 @@
 		8D5E5B4627AF14470042EEED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5E5B4527AF14470042EEED /* CleanMacApp.app */,
+				8D5E5B5927AF14900042EEED /* Main.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D5E5B4727AF14470042EEED /* CleanMacApp */ = {
+		8D5E5B5A27AF14900042EEED /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				8D5E5B4827AF14470042EEED /* AppDelegate.swift */,
-				8D5E5B4A27AF144C0042EEED /* Assets.xcassets */,
-				8D5E5B4C27AF144C0042EEED /* MainMenu.xib */,
-				8D5E5B4F27AF144C0042EEED /* CleanMacApp.entitlements */,
+				8D5E5B5B27AF14900042EEED /* AppDelegate.swift */,
+				8D5E5B5D27AF14940042EEED /* Assets.xcassets */,
+				8D5E5B6227AF14940042EEED /* Main.entitlements */,
 			);
-			path = CleanMacApp;
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D5E5B4427AF14470042EEED /* CleanMacApp */ = {
+		8D5E5B5827AF14900042EEED /* Main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D5E5B5227AF144C0042EEED /* Build configuration list for PBXNativeTarget "CleanMacApp" */;
+			buildConfigurationList = 8D5E5B6327AF14940042EEED /* Build configuration list for PBXNativeTarget "Main" */;
 			buildPhases = (
-				8D5E5B4127AF14470042EEED /* Sources */,
-				8D5E5B4227AF14470042EEED /* Frameworks */,
-				8D5E5B4327AF14470042EEED /* Resources */,
+				8D5E5B5527AF14900042EEED /* Sources */,
+				8D5E5B5627AF14900042EEED /* Frameworks */,
+				8D5E5B5727AF14900042EEED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CleanMacApp;
-			productName = CleanMacApp;
-			productReference = 8D5E5B4527AF14470042EEED /* CleanMacApp.app */;
+			name = Main;
+			productName = Main;
+			productReference = 8D5E5B5927AF14900042EEED /* Main.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -88,7 +85,7 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					8D5E5B4427AF14470042EEED = {
+					8D5E5B5827AF14900042EEED = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -106,44 +103,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5E5B4427AF14470042EEED /* CleanMacApp */,
+				8D5E5B5827AF14900042EEED /* Main */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D5E5B4327AF14470042EEED /* Resources */ = {
+		8D5E5B5727AF14900042EEED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5E5B4B27AF144C0042EEED /* Assets.xcassets in Resources */,
-				8D5E5B4E27AF144C0042EEED /* MainMenu.xib in Resources */,
+				8D5E5B5E27AF14940042EEED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D5E5B4127AF14470042EEED /* Sources */ = {
+		8D5E5B5527AF14900042EEED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5E5B4927AF14470042EEED /* AppDelegate.swift in Sources */,
+				8D5E5B5C27AF14900042EEED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8D5E5B4C27AF144C0042EEED /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D5E5B4D27AF144C0042EEED /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8D5E5B5027AF144C0042EEED /* Debug */ = {
@@ -261,12 +246,12 @@
 			};
 			name = Release;
 		};
-		8D5E5B5327AF144C0042EEED /* Debug */ = {
+		8D5E5B6427AF14940042EEED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CleanMacApp/CleanMacApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Main/Main.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -281,19 +266,19 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CleanMacApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.Main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		8D5E5B5427AF144C0042EEED /* Release */ = {
+		8D5E5B6527AF14940042EEED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CleanMacApp/CleanMacApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Main/Main.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -308,7 +293,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.CleanMacApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcos.Main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,11 +312,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D5E5B5227AF144C0042EEED /* Build configuration list for PBXNativeTarget "CleanMacApp" */ = {
+		8D5E5B6327AF14940042EEED /* Build configuration list for PBXNativeTarget "Main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D5E5B5327AF144C0042EEED /* Debug */,
-				8D5E5B5427AF144C0042EEED /* Release */,
+				8D5E5B6427AF14940042EEED /* Debug */,
+				8D5E5B6527AF14940042EEED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
