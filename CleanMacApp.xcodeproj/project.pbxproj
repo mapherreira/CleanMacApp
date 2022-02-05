@@ -61,9 +61,9 @@
 				8D5E5B6627AF171B0042EEED /* main.swift */,
 				8D5E5B5B27AF14900042EEED /* AppDelegate.swift */,
 				8D5E5B6827AF17DC0042EEED /* Coordinator.swift */,
+				8D5E5B6E27AF19040042EEED /* WindowBoilerplate.swift */,
 				8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */,
 				8D5E5B6C27AF18960042EEED /* MainViewController.swift */,
-				8D5E5B6E27AF19040042EEED /* WindowBoilerplate.swift */,
 				8D5E5B5D27AF14940042EEED /* Assets.xcassets */,
 				8D5E5B6227AF14940042EEED /* Main.entitlements */,
 			);
