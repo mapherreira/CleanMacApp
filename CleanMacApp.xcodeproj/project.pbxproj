@@ -12,6 +12,7 @@
 		8D5E5B6727AF171B0042EEED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6627AF171B0042EEED /* main.swift */; };
 		8D5E5B6927AF17DC0042EEED /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6827AF17DC0042EEED /* Coordinator.swift */; };
 		8D5E5B6B27AF183E0042EEED /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */; };
+		8D5E5B6D27AF18960042EEED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6C27AF18960042EEED /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8D5E5B6627AF171B0042EEED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8D5E5B6827AF17DC0042EEED /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		8D5E5B6C27AF18960042EEED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				8D5E5B5B27AF14900042EEED /* AppDelegate.swift */,
 				8D5E5B6827AF17DC0042EEED /* Coordinator.swift */,
 				8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */,
+				8D5E5B6C27AF18960042EEED /* MainViewController.swift */,
 				8D5E5B5D27AF14940042EEED /* Assets.xcassets */,
 				8D5E5B6227AF14940042EEED /* Main.entitlements */,
 			);
@@ -137,6 +140,7 @@
 				8D5E5B5C27AF14900042EEED /* AppDelegate.swift in Sources */,
 				8D5E5B6B27AF183E0042EEED /* MainWindowController.swift in Sources */,
 				8D5E5B6927AF17DC0042EEED /* Coordinator.swift in Sources */,
+				8D5E5B6D27AF18960042EEED /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
