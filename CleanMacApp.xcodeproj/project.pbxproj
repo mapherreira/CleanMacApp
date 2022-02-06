@@ -13,7 +13,11 @@
 		8D5E5B6927AF17DC0042EEED /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6827AF17DC0042EEED /* Coordinator.swift */; };
 		8D5E5B6B27AF183E0042EEED /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */; };
 		8D5E5B6D27AF18960042EEED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6C27AF18960042EEED /* MainViewController.swift */; };
-		8D5E5B6F27AF19040042EEED /* WindowBoilerplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6E27AF19040042EEED /* WindowBoilerplate.swift */; };
+		8D5E5B6F27AF19040042EEED /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B6E27AF19040042EEED /* Window.swift */; };
+		8D5E5B7127AF28340042EEED /* MainViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7027AF28340042EEED /* MainViewControllerRouter.swift */; };
+		8D5E5B7327AF3E9E0042EEED /* NSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7227AF3E9E0042EEED /* NSButton.swift */; };
+		8D5E5B7727AF44290042EEED /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7627AF44290042EEED /* AddUserViewController.swift */; };
+		8D5E5B7927AF44A10042EEED /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7827AF44A10042EEED /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,11 @@
 		8D5E5B6827AF17DC0042EEED /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		8D5E5B6C27AF18960042EEED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		8D5E5B6E27AF19040042EEED /* WindowBoilerplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowBoilerplate.swift; sourceTree = "<group>"; };
+		8D5E5B6E27AF19040042EEED /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		8D5E5B7027AF28340042EEED /* MainViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerRouter.swift; sourceTree = "<group>"; };
+		8D5E5B7227AF3E9E0042EEED /* NSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
+		8D5E5B7627AF44290042EEED /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		8D5E5B7827AF44A10042EEED /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +69,33 @@
 				8D5E5B6627AF171B0042EEED /* main.swift */,
 				8D5E5B5B27AF14900042EEED /* AppDelegate.swift */,
 				8D5E5B6827AF17DC0042EEED /* Coordinator.swift */,
-				8D5E5B6E27AF19040042EEED /* WindowBoilerplate.swift */,
 				8D5E5B6A27AF183E0042EEED /* MainWindowController.swift */,
 				8D5E5B6C27AF18960042EEED /* MainViewController.swift */,
+				8D5E5B7027AF28340042EEED /* MainViewControllerRouter.swift */,
+				8D5E5B7627AF44290042EEED /* AddUserViewController.swift */,
+				8D5E5B7827AF44A10042EEED /* InfoViewController.swift */,
+				8D5E5B7427AF3EDA0042EEED /* UI Boilerplate */,
+				8D5E5B7527AF41090042EEED /* Suport Files */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8D5E5B7427AF3EDA0042EEED /* UI Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E5B6E27AF19040042EEED /* Window.swift */,
+				8D5E5B7227AF3E9E0042EEED /* NSButton.swift */,
+			);
+			path = "UI Boilerplate";
+			sourceTree = "<group>";
+		};
+		8D5E5B7527AF41090042EEED /* Suport Files */ = {
+			isa = PBXGroup;
+			children = (
 				8D5E5B5D27AF14940042EEED /* Assets.xcassets */,
 				8D5E5B6227AF14940042EEED /* Main.entitlements */,
 			);
-			path = Main;
+			path = "Suport Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,11 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5E5B6727AF171B0042EEED /* main.swift in Sources */,
+				8D5E5B7727AF44290042EEED /* AddUserViewController.swift in Sources */,
 				8D5E5B5C27AF14900042EEED /* AppDelegate.swift in Sources */,
 				8D5E5B6B27AF183E0042EEED /* MainWindowController.swift in Sources */,
+				8D5E5B7927AF44A10042EEED /* InfoViewController.swift in Sources */,
 				8D5E5B6927AF17DC0042EEED /* Coordinator.swift in Sources */,
+				8D5E5B7127AF28340042EEED /* MainViewControllerRouter.swift in Sources */,
 				8D5E5B6D27AF18960042EEED /* MainViewController.swift in Sources */,
-				8D5E5B6F27AF19040042EEED /* WindowBoilerplate.swift in Sources */,
+				8D5E5B7327AF3E9E0042EEED /* NSButton.swift in Sources */,
+				8D5E5B6F27AF19040042EEED /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Main/Main.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Main/Suport Files/Main.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -279,7 +311,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,7 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Main/Main.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Main/Suport Files/Main.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -306,7 +337,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
