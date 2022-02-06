@@ -1,24 +1,43 @@
 import Cocoa
 
 class InfoViewController: NSViewController {
+	let titleLabel = NSTextField.label()
+	let dismissButton = NSButton.dismissButton()
+	
 	override func loadView() {
 		view = NSView(frame: NSRect(x: 0, y: 0, width: 300, height: 200))
 	}
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		configureDismissButton()
+		setup()
 	}
 	
 	@objc func dismissController() {
 		self.dismiss(self)
 	}
 	
-	func configureDismissButton() {
-		let dismissButton = NSButton.dismissButton()
+	func setup() {
+		titleLabel.stringValue = "Info Controller"
+		titleLabel.alignment = .center
 		dismissButton.target = self
 		dismissButton.action = #selector(dismissController)
-		[dismissButton].forEach(view.addSubview)
+		addSubviews()
+		addConstraints()
+	}
+	
+	func addSubviews() {
+		[titleLabel, dismissButton].forEach(view.addSubview)
+	}
+	
+	func addConstraints() {
+		titleLabel.anchor(
+			top: view.topAnchor,
+			leading: view.leadingAnchor,
+			bottom: nil,
+			trailing: view.trailingAnchor,
+			padding: .init(top: 30, left: 10, bottom: 0, right: 10)
+		)
 		
 		dismissButton.anchor(
 			top: view.topAnchor,

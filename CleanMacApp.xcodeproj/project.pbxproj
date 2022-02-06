@@ -21,6 +21,7 @@
 		8D5E5B7B27AF634B0042EEED /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7A27AF634B0042EEED /* NSView.swift */; };
 		8DDE570327B04F9E00E7B9AB /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE570227B04F9D00E7B9AB /* appicon.png */; };
 		8DDE570527B0529500E7B9AB /* NSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE570427B0529500E7B9AB /* NSTextField.swift */; };
+		8DDE570727B05B2900E7B9AB /* NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE570627B05B2900E7B9AB /* NSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		8D5E5B7A27AF634B0042EEED /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		8DDE570227B04F9D00E7B9AB /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		8DDE570427B0529500E7B9AB /* NSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextField.swift; sourceTree = "<group>"; };
+		8DDE570627B05B2900E7B9AB /* NSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				8D5E5B7227AF3E9E0042EEED /* NSButton.swift */,
 				8D5E5B7A27AF634B0042EEED /* NSView.swift */,
 				8DDE570427B0529500E7B9AB /* NSTextField.swift */,
+				8DDE570627B05B2900E7B9AB /* NSViewController.swift */,
 			);
 			path = "UI Boilerplate";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				8D5E5B6D27AF18960042EEED /* MainViewController.swift in Sources */,
 				8D5E5B7327AF3E9E0042EEED /* NSButton.swift in Sources */,
 				8D5E5B7B27AF634B0042EEED /* NSView.swift in Sources */,
+				8DDE570727B05B2900E7B9AB /* NSViewController.swift in Sources */,
 				8D5E5B6F27AF19040042EEED /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
