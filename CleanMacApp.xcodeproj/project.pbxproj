@@ -19,6 +19,7 @@
 		8D5E5B7727AF44290042EEED /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7627AF44290042EEED /* AddUserViewController.swift */; };
 		8D5E5B7927AF44A10042EEED /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7827AF44A10042EEED /* InfoViewController.swift */; };
 		8D5E5B7B27AF634B0042EEED /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E5B7A27AF634B0042EEED /* NSView.swift */; };
+		8DDE570327B04F9E00E7B9AB /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE570227B04F9D00E7B9AB /* appicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8D5E5B7627AF44290042EEED /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
 		8D5E5B7827AF44A10042EEED /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		8D5E5B7A27AF634B0042EEED /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		8DDE570227B04F9D00E7B9AB /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,9 @@
 				8D5E5B7027AF28340042EEED /* MainViewControllerRouter.swift */,
 				8D5E5B7627AF44290042EEED /* AddUserViewController.swift */,
 				8D5E5B7827AF44A10042EEED /* InfoViewController.swift */,
+				8DDE570227B04F9D00E7B9AB /* appicon.png */,
 				8D5E5B7427AF3EDA0042EEED /* UI Boilerplate */,
-				8D5E5B7527AF41090042EEED /* Suport Files */,
+				8D5E5B7527AF41090042EEED /* Supporting Files */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -92,13 +95,13 @@
 			path = "UI Boilerplate";
 			sourceTree = "<group>";
 		};
-		8D5E5B7527AF41090042EEED /* Suport Files */ = {
+		8D5E5B7527AF41090042EEED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				8D5E5B5D27AF14940042EEED /* Assets.xcassets */,
 				8D5E5B6227AF14940042EEED /* Main.entitlements */,
 			);
-			path = "Suport Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDE570327B04F9E00E7B9AB /* appicon.png in Resources */,
 				8D5E5B5E27AF14940042EEED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Main/Suport Files/Main.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Main/Supporting Files/Main.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -333,7 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Main/Suport Files/Main.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Main/Supporting Files/Main.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

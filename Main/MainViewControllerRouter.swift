@@ -1,7 +1,7 @@
 import Foundation
 
 public final class MainViewControllerRouter {
-	private let addUserFactory: () ->AddUserViewController
+	private let addUserFactory: () -> AddUserViewController
 	private let infoFactory: () -> InfoViewController
 	private let main: MainViewController
 
