@@ -2,7 +2,12 @@ import Cocoa
 
 extension NSView {
 	func fillSuperview() {
-		anchor(top: superview?.topAnchor, leading: superview?.leadingAnchor, bottom: superview?.bottomAnchor, trailing: superview?.trailingAnchor)
+		anchor(
+			top: superview?.topAnchor,
+			leading: superview?.leadingAnchor,
+			bottom: superview?.bottomAnchor,
+			trailing: superview?.trailingAnchor
+		)
 	}
 	
 	func anchorSize(to view: NSView) {
@@ -10,7 +15,13 @@ extension NSView {
 		heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
 	}
 	
-	func anchor(top: NSLayoutYAxisAnchor?, leading: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, trailing: NSLayoutXAxisAnchor?, padding: NSEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 0) , size: CGSize = .zero) {
+	func anchor(top: NSLayoutYAxisAnchor?,
+				leading: NSLayoutXAxisAnchor?,
+				bottom: NSLayoutYAxisAnchor?,
+				trailing: NSLayoutXAxisAnchor?,
+				padding: NSEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 0) ,
+				size: CGSize = .zero) {
+		
 		translatesAutoresizingMaskIntoConstraints = false
 		
 		if let top = top {
